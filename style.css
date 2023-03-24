@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Apply Open Sans to headings */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+}
+
+/* Apply Roboto to other text */
+p, a, span, li {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+
+header {
+  padding: 15px 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+}
+
+header h1 {
+  margin: 0;
+}
+
+header ul {
+  list-style: none;
+  margin: 0;
+  display: flex;
+}
+
+header li {
+  margin: 0 10px;
+}
+
+header a {
+  text-decoration: none;
+  color: #000;
+}
+
+.image-container {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  overflow: hidden;
+  float: left;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+}
+
+.main-container {
+  max-width: 850px;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+}
+p a {
+  color: #000;
+}
+
+.contact-form {
+  width: 50%;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 0.25rem;
+}
+
+input, textarea {
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+button {
+  background-color: #818381;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #3e8e41;
+}
+
+details summary {
+  display: flex;
+  align-items: center;
+}
+
+details summary h2 {
+  margin: 0;
+  margin-left: 5px; /* Adjust this value to change the space between the arrow and the h2 tag */
+}
