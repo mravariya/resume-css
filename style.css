@@ -115,3 +115,7 @@ details summary h2 {
   margin: 0;
   margin-left: 5px; /* Adjust this value to change the space between the arrow and the h2 tag */
 }
+
+body {
+  background-color: #eaf6f6;
+}
